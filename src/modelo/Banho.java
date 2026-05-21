@@ -13,7 +13,6 @@ public class Banho extends Servico {
             return 0;
         }
 
-        return getAnimal().calcularPrecoBase()
-                + (getDuracaoMinutos() * 0.5);
+        return getAnimal().calcularPrecoBase() + (getDuracaoMinutos() * 0.5);
     }
 }

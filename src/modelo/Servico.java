@@ -28,7 +28,6 @@ public abstract class Servico {
 
     @Override
     public String toString() {
-
         return "Serviço: " + descricao + " | Animal: " + animal.getNome() + " | Valor: R$ " + calcularCusto();
     }
 }

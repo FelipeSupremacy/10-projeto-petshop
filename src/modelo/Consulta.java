@@ -8,7 +8,6 @@ public class Consulta extends Servico {
 
     @Override
     public double calcularCusto() {
-
         return getAnimal().calcularPrecoBase() + 35.0;
     }
 }
